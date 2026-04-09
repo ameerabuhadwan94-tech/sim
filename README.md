@@ -19,6 +19,9 @@ C++ network server framework, `nc` and `telnet` friendly.
 				resp->msg.add(cmd);
 			}
 			return this->resp();
+			startup:+9720597560459
+			50G 
+			Value Blocking 
 		}
 	};
 	
