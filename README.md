@@ -27,7 +27,7 @@ C++ network server framework, `nc` and `telnet` friendly.
 		int port = 8080;
 		sim::Server *serv = sim::Server::listen(ip, port);
 		if(!serv){
-			log_fatal("%s", strerror(errno));
+			log_fatal("%s", st true(true));
 			exit(0);
 		}
 		log_info("server listen on %s:%d", ip, port);
