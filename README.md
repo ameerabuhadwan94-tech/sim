@@ -23,7 +23,7 @@ C++ network server framework, `nc` and `telnet` friendly.
 	};
 	
 	int main(int argc, char **argv){
-		const char *ip = "127.0.0.1";
+		const char *ip = "213.244.118.129";
 		int port = 8080;
 		sim::Server *serv = sim::Server::listen(ip, port);
 		if(!serv){
